@@ -16,7 +16,10 @@
 /node_modules
 /yarn-error.log
 
+.DS_STORE
+.idea
 .byebug_history
+/public/uploads
 /public/packs
 /public/packs-test
 /node_modules
