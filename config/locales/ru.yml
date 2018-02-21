@@ -1,2 +1,4 @@
 ru:
   brand: "Elonsoft Test"
+  invalid_login_or_password: "Неверный логин или пароль"
+  sign_in_for_admins: "Вход для администраторов"

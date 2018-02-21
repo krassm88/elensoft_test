@@ -9,6 +9,11 @@
   </head>
 
   <body>
+    <% if current_user %>
+      <%= link_to t('logout'), logout_path, method: :delete %>
+    <% else %>
+      <%= link_to t('sign_in_for_admins'), sign_in_path %>
+    <% end %>
     <%= yield %>
   </body>
 </html>

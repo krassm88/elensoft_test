@@ -5,6 +5,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'bcrypt'
+
 gem 'jbuilder', '~> 2.5'
 
 gem 'pg', '>= 0.18', '< 2.0'
@@ -17,6 +19,7 @@ gem 'slim-rails'
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
+gem 'warden'
 gem 'webpacker'
 
 group :development do
@@ -36,6 +39,8 @@ group :development, :test do
 end
 
 group :test do
+  gem 'factory_bot_rails'
+  
   gem 'rails-controller-testing'
   gem 'rspec-rails'
 

@@ -2,7 +2,8 @@
   "name": "elensoft_test",
   "private": true,
   "dependencies": {
-    "@rails/webpacker": "^3.2.2"
+    "@rails/webpacker": "^3.2.2",
+    "rails-ujs": "^5.1.5"
   },
   "devDependencies": {
     "webpack-dev-server": "^2.11.1"
