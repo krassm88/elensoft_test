@@ -1,0 +1,8 @@
+header.navbar
+  section.navbar-section
+    = link_to t('brand'), root_path, class: 'navbar-brand mr-2'
+    - if current_user
+      = link_to t('admin_panel'), '#', class: 'btn btn-link'
+      = link_to t('logout'), logout_path, method: :delete, class: 'btn btn-link'
+    - else
+      = link_to t('sign_in_for_admins'), sign_in_path, class: 'btn btn-link'

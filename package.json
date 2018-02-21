@@ -3,7 +3,8 @@
   "private": true,
   "dependencies": {
     "@rails/webpacker": "^3.2.2",
-    "rails-ujs": "^5.1.5"
+    "rails-ujs": "^5.1.5",
+    "spectre.css": "^0.5.1"
   },
   "devDependencies": {
     "webpack-dev-server": "^2.11.1"

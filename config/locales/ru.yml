@@ -1,4 +1,7 @@
 ru:
+  admin_panel: "Панель администратора"
   brand: "Elonsoft Test"
   invalid_login_or_password: "Неверный логин или пароль"
+  logout: "Выйти"
+  sign_in: "Войти"
   sign_in_for_admins: "Вход для администраторов"
